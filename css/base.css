@@ -1,0 +1,28 @@
+/* arquivo com as configurações básicas */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+/* reset mini */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+/* tirando os marcadores das lists */
+ul{
+  list-style: none;
+}
+
+/* esse container será usado como uma base para todos os outros - lembram da ideia de classe mais geral, então esse container é essa ideia
+vh - altura do viewport - tamanho definido por valor e a sigla vh*/
+.container{
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  background: #666;
+  display: flex;
+}
